@@ -32,14 +32,52 @@
             text-decoration: none; /* Remove the underline */
             color: inherit; /* Use the color inherited from the parent element */
         }
+        table {
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: none;
+        }
     </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"> <!-- Include Open Sans font -->
 </head>
 <body>
     <div class="container">
         <img src="epsilon-quantitative-logo.jpg" alt="Espilon Quantitative Logo" class="logo">
-	<!--<h1 class="company-name">Epsilon Quantitative</h1>-->
-        <p class="contact-info">✉ info@epsilonquant.com<br/>🏘 Falstersgade 41b 1.tv., 8000 Aarhus C<br />☎ +45 81 65 75 27<br />VAT ID: <a href="https://datacvr.virk.dk/enhed/virksomhed/44402130">44402130</a></p>
+        <table>
+            <tr>
+                <td>Epsilon Quantitative ApS</td>
+            </tr>
+            <tr>
+                <td>Falstersgade 41b 1.tv.</td>
+            </tr>
+            <tr>
+                <td>8000 Aarhus C</td>
+            </tr>
+            <tr>
+                <td>Denmark</td>
+            </tr>
+        </table>
+        <br />
+        <table>
+            <tr>
+                <td style="text-align: left;">Phone.</td>
+                <td style="text-align: right;"><a href="tel:+45 81 65 75 27">+45 81 65 75 27</a></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Fax:</td>
+                <td style="text-align: right;">+45 69 80 34 02</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Mail:</td>
+                <td style="text-align: right;"><a href="mailto:info@epsilonquant.com">info@epsilonquant.com</a></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">VAT ID:</td>
+                <td style="text-align: right;"><a href="https://datacvr.virk.dk/enhed/virksomhed/44402130">44402130</a></td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
