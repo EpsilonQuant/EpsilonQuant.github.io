@@ -1,0 +1,14 @@
+<svg width="1200" height="1200" xmlns="http://www.w3.org/2000/svg">
+ <!-- Background -->
+
+ <!-- Circle -->
+ <!-- Stylized Lightning Bolt (Epsilon Shape) -->
+ <!-- Company Name -->
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" fill="#393939" height="1200" width="1200"/>
+  <circle id="svg_2" fill="none" stroke-width="20" stroke="white" r="320" cy="450" cx="600"/>
+  <text id="svg_3" fill="white" font-size="800" font-family="Serif" y="625" x="600" text-anchor="middle">ε</text>
+  <text stroke="null" id="svg_4" text-anchor="middle" fill="white" font-size="120" font-family="Serif" y="1000" x="599.99998">Epsilon Quantitative</text>
+ </g>
+</svg>
