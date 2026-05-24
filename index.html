@@ -46,7 +46,9 @@
         .logo {
             width: 100%; /* Explicit width so height: auto preserves aspect ratio inside the column flexbox */
             max-width: 400px; /* Reduced logo size from 700px */
+            aspect-ratio: 1 / 1; /* Logo is 1200x1200; gives WebKit's flex layout a definite ratio (fixes iOS Safari/Edge stretching) */
             height: auto;
+            object-fit: contain; /* Guard: never distort the bitmap even if the box is off */
             margin-bottom: var(--space-l);
         }
 
