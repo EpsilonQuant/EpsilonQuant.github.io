@@ -27,6 +27,9 @@ credentials, internal documents, or private data).
 
 ## Conventions
 
+- **Never include AI attributions** anywhere — no `Co-Authored-By: Claude` (or
+  similar) trailers in commit messages, no "Generated with …" footers in pull
+  request descriptions, and no AI attribution in any other text or artifact.
 - **No build tooling.** Edit `index.html` directly; changes are deployed on push to
   the default branch. To preview, open `index.html` in a browser — no server needed.
 - **Styling lives inline** in the `<style>` block. Use the existing CSS custom
